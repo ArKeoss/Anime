@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Open+Sans&display=swap");
+
+html p,
+h1,
+h2 {
+  font-family: "Advent Pro", sans-serif;
+}
+
+html,
+body,
+footer {
+  scroll-behavior: smooth;
+}
+
+/* ************************ NAVBAR ************************* */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+nav {
+  width: 100%;
+  background-color: #346a7e;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #346a7e;
+  position: fixed;
+  width: 100%;
+  opacity: 0.95;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  font-family: "Advent Pro", sans-serif;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.li:hover {
+  border-bottom: solid 5px;
+  border-color: #d8d8d8;
+  background-color: rgba(84.71, 84.71, 84.71, 0.25);
+}
+
+nav li:hover a {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+/* ************************ DIAPORAMA ************************* */
+div img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 714px;
+}
+/* ****************** div.les-animes/les mangas **************** */
+div.les-animes {
+  padding-top: 20px;
+  margin: 0px;
+  width: 100%;
+}
+
+div.les-animes h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Advent Pro", sans-serif;
+  text-decoration: underline;
+}
+
+div.les-animes p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.3em;
+}
+
+div.les-mangas {
+  padding-top: 20px;
+  margin: 0px;
+  width: 100%;
+}
+
+div.les-mangas h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Advent Pro", sans-serif;
+  text-decoration: underline;
+}
+
+div.les-mangas p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.3em;
+}
+
+/* ************************ FOOTER ************************* */
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #c3c3c3;
+  padding-bottom: 10px;
+}
+
+footer p {
+  margin-top: 100px;
+  padding-top: 10px;
+  font-size: 1.3em;
+  text-align: center;
+  font-family: "Advent Pro", sans-serif;
+}
+
+footer .footer1 {
+  padding: 0px;
+  margin-top: 20px;
+}
+
+footer p:hover {
+  text-decoration: underline;
+}
+
+p.contacter:hover {
+  text-decoration: none;
+}
+
+p.contacter {
+  margin-bottom: 30px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+/* **********************Top shonen*********************** */
+
+div.top-shonen {
+  padding: 0px;
+  width: 100%;
+}
+
+div.top-shonen h2#mha {
+  margin: 0px;
+  padding-top: 100px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3.45em;
+}
+
+img.mha {
+  margin-left: 25%;
+  margin-top: 20px;
+  width: 680px;
+  height: 1000px;
+}
+
+div.top-shonen h2 {
+  margin: 0px;
+  padding-top: 40px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3.45em;
+}
+
+div.top-shonen img {
+  margin-left: 25%;
+  margin-top: 20px;
+  width: 680px;
+  height: 1000px;
+}
+
+/* *********************** TOP MANGA *************************** */
+
+div.top-manga {
+  padding: 0px;
+  margin: 0px;
+}
+
+div.top-manga h2#op {
+  padding-top: 100px;
+  margin: 0px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3.45em;
+}
+
+div.top-manga h2 {
+  padding-top: 40px;
+  margin: 0px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3.45em;
+}
+
+div.top-manga img {
+  margin-left: 25%;
+  margin-top: 20px;
+  width: 680px;
+  height: 1000px;
+}
