@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="Anime">Animés</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li class="li"><a href="index.html">Animés</a></li>
+        <li class="li"><a href="#contact">Nous contacter</a></li>
+        <li class="li"><a href="shonen.html">Top shonen</a></li>
+        <li class="li"><a href="manga.html">Top mangas </a></li>
+      </ul>
+    </nav>
+
+    <div class="diaporama">
+      <img name="slide">
+      
+
+      <script>
+        var i= 0
+        var images = ['img/1.jpg','img/2.jpg','img/3.jpg','img/4.jpg','img/5.png','img/6.png','img/7.jpg','img/8.png'];
+        var time = 4500;
+
+            function changeImg(){
+
+              document.slide.src = images[i];
+
+              if (i < images.length - 1) {
+                i++;
+              } else {
+                  i = 0;
+              }
+              setTimeout("changeImg()", time);
+            }
+
+            window.onload = changeImg;
+        </script>
+      </div>  
+      
+      <div class="les-animes">
+        <h1>Les animés</h1>
+        <p>Un anime ou animé désigne une série d'animation ou un film d'animation en provenance du Japon. C'est le diminutif du mot animēshon, lui-même transcription de l'anglais animation.
+        Alors que les toutes premières animations japonaises connues datent de 19174 et qu'un bon nombre de dessins animésoriginaux sont produits durant les décennies suivantes, la caractéristique et le style anime se développent durant lesannées 1960 (notamment grâce aux travaux d'Osamu Tezuka) et se popularisent hors des frontières du Japon durant les années 1970 et 1980.</p>
+      </div>
+
+      <div class="les-mangas">
+        <h1>Les mangas</h1>
+        <p>Le mot « manga » est par ailleurs parfois utilisé pour désigner, par extension, une bande dessinée non japonaise
+        respectant les codes des productions populaires japonaises ou pour nommer, par métonymie, d'autres produits visuels
+        rappelant certaines de ces bandes dessinées (dessins animés, style graphique, etc.).</p>
+      </div>
+  </body>
+
+  <footer>
+     <p id="contact">© Copyright 2021 - Adam Soubai  </p> 
+     <p class="contacter">Mon adresse e-mail : asoubai@gsulf.org </p>
+     
+  </footer>
+</html>
